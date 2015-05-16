@@ -1,0 +1,55 @@
+<?php
+	require_once 'parameters.php';
+	require_once $dir_model.'initialize.php';
+	
+	//facebook
+	$fb_title = "";
+	$fb_type = "";
+	$fb_image_url = "";
+	$fb_url = "";
+	$fb_description = "";
+	$fb_admin_userid = "";
+
+	//twitter
+	$tw_card = "";
+	$tw_url = "";
+	$tw_title = "";
+	$tw_description = "";
+	$tw_image = "";
+	
+	$keywords = $_GET['keywords'];
+	
+	$meta_description = $keywords;
+	$meta_keywords = $keywords;
+	$meta_author = "SwiftDeal.in - Making Happy Deal";
+
+	if (!empty($_GET['keywords'])) {
+		$title = $_GET['keywords'];
+	
+		$start = microtime(true);
+		$keywords = mysql_real_escape_string(htmlentities(trim($_GET['keywords'])));
+	
+		$dealcity = $_COOKIE['dealcity'];
+		$page = !empty($_GET['page']) ? (int)$_GET['page'] : 1;
+		
+		$search = new Search();
+		$search->keywords = $keywords;
+		$search->dealcity = $dealcity;
+		$search->page = $page;
+		$search->per_page = 5;
+		
+		$results = $search->search_results();
+		$end = number_format((microtime(true) - $start), 3);
+		$results_num = $search->total_results;
+		$pagination = new Pagination($page, $search->per_page, $search->total_results);
+		
+		echo $search->total_results;
+		echo '<pre>', print_r($results), '</pre>';
+	}
+	
+/*	if(isMobile()){
+		include $dir_public_mobile.'search_results.php';
+	}else{
+		include $dir_public.'search_results.php';
+	}*/
+?>
