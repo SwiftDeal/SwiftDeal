@@ -1,0 +1,43 @@
+body{
+	font:0.8em Verdana;
+}
+
+.dropdwn {
+    position:relative;
+    z-index:9999;
+}
+
+.autosuggest, .dropdwn, .result{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 250px;
+}
+
+.autosuggest{
+	padding: 4px;
+	border: 1px solid #000;
+}
+
+.result{
+	width:310px;
+	list-style: none;
+	position: absolute;
+	background: white;	
+}
+
+.result li{
+	padding: 5px;
+	border: 1px solid #000;
+	border-top: 0;
+	cursor: pointer;
+}
+
+.result li:hover{
+	background: #000;
+	color: #fff;
+}
+
+ul.result li {
+    height: auto;
+}
