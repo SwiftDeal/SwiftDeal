@@ -1,0 +1,19 @@
+<IfModule mod_php5.c>
+   php_value upload_max_filesize 128M
+   php_value post_max_size 128M
+</IfModule>
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+#ErrorDocument 404 https://swiftdeal.in/public/404.php
+ErrorDocument 404 https://swiftdeal.in/oldsd/view/themes/coming-soon/index.html
+
+<IfModule mod_rewrite.c>
+	RewriteRule ^home/?$ index.php [NC,L]
+	RewriteRule ^profile/?$ profile.php [NC,L]
+	RewriteRule ^editions/?$ editions.php [NC,L]
+	RewriteRule ^gallery/?$ gallery.php [NC,L]
+	RewriteRule ^contact/?$ contact.php [NC,L]
+</IfModule>
