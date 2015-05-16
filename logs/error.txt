@@ -1,0 +1,71 @@
+2014-03-24 19:58:43 | Item : Check the item = 1079
+2014-04-25 18:55:33 | Item : Check the item = 1079
+2014-05-20 17:05:33 | Item : Check the item = 1078 AnD SLeeP(3)
+2014-05-20 17:05:40 | Item : Check the item = 1078/**/AND/**/SLEEP(3)
+2014-05-20 17:05:46 | Item : Check the item = 1078 AnD SLeeP(3) #
+2014-05-20 17:05:53 | Item : Check the item = 1078 && SLEEP(3) oRDeR BY 1 #
+2014-05-30 10:27:55 | Item : Check the item = 29 AnD SLeeP(3)
+2014-05-30 10:27:59 | Item : Check the item = 29/**/AND/**/SLEEP(3)
+2014-05-30 10:28:03 | Item : Check the item = 29 AnD SLeeP(3) #
+2014-05-30 10:28:06 | Item : Check the item = 29 && SLEEP(3) oRDeR BY 1 #
+2014-05-30 10:29:23 | Item : Check the item = 29 AnD SLeeP(3)
+2014-05-30 10:29:27 | Item : Check the item = 29/**/AND/**/SLEEP(3)
+2014-05-30 10:29:30 | Item : Check the item = 29 AnD SLeeP(3) #
+2014-05-30 10:29:34 | Item : Check the item = 29 && SLEEP(3) oRDeR BY 1 #
+2014-07-12 20:08:34 | Item : Check the item = 999999.9
+2014-07-12 20:08:38 | Item : Check the item = 1381 and 1>1
+2014-07-16 07:11:44 | Item : Check the item = 999999.9
+2014-07-16 07:11:44 | Item : Check the item = 1386 and 1>1
+2014-07-16 20:45:56 | Item : Check the item = 1078 and (4=9 xor 6=7)-- a
+2014-07-16 20:45:57 | Item : Check the item = 1078 and (6=6 xor 7=7)-- a
+2014-07-16 20:45:58 | Item : Check the item = 1078 and 1=2-- a
+2014-07-16 20:46:03 | Item : Check the item = 1078 and 2=11 -- a
+2014-07-16 20:46:04 | Item : Check the item = 1078 and 2=11 -- a
+2014-07-20 01:02:36 | Item : Check the item = 8 AnD SLeeP(3)
+2014-07-20 01:02:44 | Item : Check the item = 8/**/AND/**/SLEEP(3)
+2014-07-20 01:02:51 | Item : Check the item = 8 AnD SLeeP(3) #
+2014-07-20 01:02:58 | Item : Check the item = 8 && SLEEP(3) oRDeR BY 1 #
+2014-08-09 12:32:06 | Item : Check the item = 7 AnD SLeeP(3)
+2014-08-09 12:32:13 | Item : Check the item = 7/**/AND/**/SLEEP(3)
+2014-08-09 12:32:20 | Item : Check the item = 7 AnD SLeeP(3) #
+2014-08-09 12:32:26 | Item : Check the item = 7 && SLEEP(3) oRDeR BY 1 #
+2014-08-09 12:33:56 | Item : Check the item = 7 AnD SLeeP(3)
+2014-08-09 12:34:03 | Item : Check the item = 7/**/AND/**/SLEEP(3)
+2014-09-28 01:23:18 | Item : Check the item = 999999.9
+2014-09-28 01:23:18 | Item : Check the item = 1125 and 1>1
+2014-10-29 08:03:27 | Item : Check the item = 999999.9
+2014-10-29 08:03:27 | Item : Check the item = 1381 and 1>1
+2014-11-22 16:33:31 | Item : Check the item = 1384 AnD SLeeP(3)
+2014-11-22 16:33:38 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-11-22 16:33:45 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-11-22 16:33:52 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2014-11-22 16:36:31 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-11-22 16:36:40 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-11-22 16:36:47 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2014-11-29 09:05:56 | Item : Check the item = -9.9
+2014-11-29 09:06:03 | Item : Check the item = 30 and 1=0
+2014-12-01 09:56:05 | Item : Check the item = 1384 AnD SLeeP(3)
+2014-12-01 09:56:13 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-12-01 09:56:19 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-12-01 09:56:26 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2014-12-01 09:58:04 | Item : Check the item = 1384 AnD SLeeP(3)
+2014-12-01 09:58:12 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-12-01 09:58:18 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-12-01 09:58:25 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2014-12-01 09:58:50 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-12-01 09:58:56 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-12-01 09:59:03 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2014-12-01 10:04:27 | Item : Check the item = 1384/**/AND/**/SLEEP(3)
+2014-12-01 10:04:34 | Item : Check the item = 1384 AnD SLeeP(3) #
+2014-12-01 10:04:41 | Item : Check the item = 1384 && SLEEP(3) oRDeR BY 1 #
+2015-03-22 03:46:25 | Item : Check the item = 1380 AnD SLeeP(3)
+2015-03-22 03:46:41 | Item : Check the item = 1380/**/AND/**/SLEEP(3)
+2015-03-22 03:46:48 | Item : Check the item = 1380 AnD SLeeP(3) #
+2015-03-22 03:46:57 | Item : Check the item = 1380 AND SLEEP(3) oRDeR BY 1 #
+2015-03-22 03:49:33 | Item : Check the item = 1380/**/AND/**/SLEEP(3)
+2015-03-22 03:49:40 | Item : Check the item = 1380 AnD SLeeP(3) #
+2015-03-22 03:49:46 | Item : Check the item = 1380 AND SLEEP(3) oRDeR BY 1 #
+2015-03-27 07:05:33 | Item : Check the item = 40 AnD SLeeP(3)
+2015-03-27 07:05:41 | Item : Check the item = 40/**/AND/**/SLEEP(3)
+2015-03-27 07:05:45 | Item : Check the item = 40 AnD SLeeP(3) #
+2015-03-27 07:05:48 | Item : Check the item = 40 AND SLEEP(3) oRDeR BY 1 #
