@@ -1,3 +1,7 @@
+a=3; 
+b=4; 
+cout<<a+b; 
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
