@@ -1,3 +1,9 @@
+
+int a=3' 
+int b=4; 
+cout<<a+b
+
+
 # Auto detect text files and perform LF normalization
 * text=auto
 
